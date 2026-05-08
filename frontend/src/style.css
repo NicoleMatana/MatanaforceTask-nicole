@@ -1,0 +1,294 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  /* text-align: center; */
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.top-title {
+  border-bottom: 3px solid #34c38f;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.top-title h2 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.top-title span {
+  color: gray;
+  font-size: 14px;
+}
+
+.action-bar,
+.form-top-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.left-action,
+.right-action,
+.search-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-select,
+.search-input {
+  height: 38px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+
+.search-input {
+  width: 250px;
+}
+
+.search-btn {
+  height: 38px;
+  width: 38px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+ .load-btn {
+  height: 38px;
+  width: 38px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+} 
+
+.search-btn-tambah-periode {
+  height: 38px;
+  width: 38px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-green,
+.btn-red,
+.btn-blue {
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-green {
+  background-color: #28a745;
+}
+
+.btn-red {
+  background-color: #dc3545;
+}
+
+.btn-blue {
+  background-color: #17a2b8;
+  position: flex;
+  
+}
+
+.table-wrapper {
+  overflow: auto;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table thead {
+  background-color: #005b96;
+  color: white;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.custom-table tbody tr:hover {
+  background: #f5f9ff;
+}
+.form-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.form-column {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-group label span {
+  color: red;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.pagination-info {
+  font-size: 14px;
+  color: #555;
+  font-size: 15px;
+}
+
+.rows-select {
+  height: 25px;
+  border: 2px solid #ccc;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.pagination-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.pagination-buttons button {
+  border: 1px solid #ccc;
+  background: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.pagination-buttons button:hover {
+  background: #f0f0f0;
+}
+
+.active-page {
+  background: #005b96 !important;
+  color: white;
+}
+
+.detail-action {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+.detail-column {
+  flex: 1;
+}
+
+.detail-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.detail-group label {
+  width: 220px;
+  font-weight: bold;
+  color: #5b5fc7;
+  font-size: 14px;
+}
+
+.detail-group span {
+  font-size: 14px;
+  color: #333;
+}
+
+.btn-warning {
+  background: orange;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-green,
+.btn-blue,
+.btn-red,
+.btn-warning {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.btn-green {
+  background: #00a651;
+}
+
+.btn-blue {
+  background: #00a8e8;
+}
+
+.btn-red {
+  background: #f44336;
+}
+
+.btn-warning {
+  background: #ff9800;
+}
