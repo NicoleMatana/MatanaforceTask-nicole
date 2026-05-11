@@ -1,5 +1,5 @@
 from django.db import models
-
+#struktur database untuk API 
 
 class PeriodeAkademik(models.Model):
 

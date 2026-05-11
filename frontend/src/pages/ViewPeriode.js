@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import {
-  useNavigate,
-  useParams,
+  useNavigate, //buat pindah halamann
+  useParams, // buat ambil parameter dari URL
 } from "react-router-dom";
 
 import "../style.css";

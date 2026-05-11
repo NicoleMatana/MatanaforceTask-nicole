@@ -1,3 +1,5 @@
+// analogi strukturnya
+// user isi form edit -> data masuk ke state -> submit -> kirim data ke backend -> backend simpan di database
 import { useEffect, useState } from "react";
 
 import axios from "axios";

@@ -1,3 +1,6 @@
+// analogi strukturnya
+// user isi form -> data masuk ke state -> submit -> kirim data ke backend -> backend simpan di database
+
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";

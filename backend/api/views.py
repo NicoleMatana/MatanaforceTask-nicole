@@ -1,3 +1,4 @@
+# logic untuk API Periode Akademik
 from rest_framework import viewsets
 from .models import PeriodeAkademik
 from .serializers import PeriodeAkademikSerializer
